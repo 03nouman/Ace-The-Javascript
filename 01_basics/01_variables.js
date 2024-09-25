@@ -11,4 +11,4 @@ prefer not to use var,
  becoz of issues in  block scope and functional scope.*/
 
 // console.log(accountId,accountName,accountEmail,accountCity,accountStatus);
-console.table([accountId,accountName,accountEmail,accountCity,accountStatus]);
+console.table([accountId,accountName,accountEmail,acountCity,accountStatus]);
