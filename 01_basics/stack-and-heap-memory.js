@@ -1,13 +1,11 @@
 // Stack-memory stores (Primitive Datatype) variables and Heap memory stores (Non-Primitive-Datatype) variables
 
 /* 
-Stack-memory:
-1. stack memory gives copy of memory to another variable
-2. But changes doesn't apply on itself, which are done by another variable to whom we have shared memory refrence.
+Stack-memory: whenever any variable refered data in stack memory it gets copy of that variable value,
+ so the changes doesn't apply on original value, the changes apply on copied data/value which are done by another variable to whom we have shared copy of value.
 
-Heap memory:
-1. heap memory gives direct refrence of memory to another variable,
-2. And changes do apply on itself, which are done by another variable to whom we have shared direct memory refrence.
+Heap memory: whenever any variable refered data in heap memory it gets original reference of that variable value,
+ so changes do apply on original value, which are done by another variable to whom we have shared refrence of original value..
 */
 
 // Example for stack memory:
