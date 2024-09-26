@@ -11,7 +11,7 @@ console.log("Nouman");
 
 // Datatypes:- Primitive datatypes & Non-Primitive
 
-// Number -> ranges from 2 to power 53, this can a single memory can allocate a value for a number specfic varaible.
+// Number -> ranges from 2 to power 53, this much space can be allocate a memory for a number specfic varaible.
 // bigInt
 // string -> ""
 // boolean -> true/false
@@ -21,10 +21,10 @@ console.log("Nouman");
 
 // Below are the examples of obove mentioned datatypes,
 
-let age = 25;
-let name = "nouman"
-let isLoggedIn = false;
-let state;
+let age = 25; //number type variable
+let name = "nouman" //string type variable
+let isLoggedIn = false; //boolean type variable
+let state; //undefined type variable
 
 // object
 

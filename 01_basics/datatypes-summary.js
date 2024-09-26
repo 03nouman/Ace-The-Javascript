@@ -12,14 +12,14 @@ let anotherUniqueId = Symbol('123'); // typeOf: symbol
 const bigNumber = 12334567888990n // typeOf: bigInt
 // console.log(typeof state);
 
-// console.log(uniqueId === anotherUniqueId);
+// console.log(uniqueId === anotherUniqueId);// result- true becoz both of them are same datatype variable.
 // console.table([uniqueId,anotherUniqueId]);
 
 // Refrence (Non-Primitive Datatypes):
 
 // Array, Objects, Functions
 
-let heros = ['shaktiman','nagraj','krish'] // typeOf: 
+let heros = ['shaktiman','nagraj','krish'] // typeOf: object
 
 let myObj = {
     name: 'nouman',
