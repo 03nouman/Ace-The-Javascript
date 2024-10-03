@@ -4,9 +4,9 @@
 
 console.log(3 +
     3
-); // code readability should be high.
+); // Bad practice, code readability should be high.
 
-console.log("Nouman");
+console.log("Nouman"); // Good practice, code readability should be high.
 
 
 // Datatypes:- Primitive datatypes & Non-Primitive

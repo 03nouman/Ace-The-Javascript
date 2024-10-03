@@ -16,7 +16,7 @@ let valueInNumber = Number(score)
 
 
 // 33 -> 33
-// anbc22 -> NaN
+// 'anbc22' -> NaN
 // true -> 1 and false -> 0
 // null -> 0
 // undefined -> NaN
@@ -42,8 +42,12 @@ let isLoggedInInBoolean = Boolean(isLoggedIn)
 // conversion with String
 
 let someNumber = 33
-
+let someArray = [1,2,3,3]
 let someNumberInString = String(someNumber)
+let someArrayInString = String(someArray)
+
+// console.log(typeof someArrayInString);// result: string
+
 
 // console.log(someNumberInString); // result-33
 // console.log(typeof someNumberInString ); //result-string
@@ -54,8 +58,8 @@ let value = 3;
 
 let negValue = - value;
 
-// console.log(value);
-// console.log(negValue);
+// console.log(value); //result: 3
+// console.log(negValue); //result: -3
 
 // console.log(2+2);
 // console.log(2-2);
@@ -66,11 +70,11 @@ let negValue = - value;
 let str1 = "nouman";
 let str2 = " mullaji"
 
-// console.log(str1 + str2);
+// console.log(str1 + str2); // concatinating or adding  two string.
 
 // complex operations:
 
-// console.log("1" + 2); //result-12, treating as a string
+// console.log("1" + + 2); // result->12, here javascripts treats 2 as a string
 //  console.log((1) +   + "2"); // result- converting string "2" into a number and adding with 1 which gives 3
 // console.log("1" + 2 + 1);
 // console.log(1 + 2 + "2"); // Bad practice
